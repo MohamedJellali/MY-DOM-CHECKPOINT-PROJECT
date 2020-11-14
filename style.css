@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: grid;
+    place-items: center;
+
+    height: 100vh;
+    background-color: rgb(206, 206, 206);
+    background-image: url(https://cdn.hipwallpaper.com/i/79/54/ng4yLT.jpg);
+}
+
+main{
+    width: 50%;
+    background-color: #fff;
+    box-shadow: 0px 2px 30px grey;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+
+
+h1{
+    text-align: center;
+    font-family: Times, Times New Roman, serif;
+}
+
+
+
+
+
+article{
+    width: 100%;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+article:last-child{
+    margin-bottom: 0px;
+}
+
+span:not(#price){
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 5px 9px;
+}
+
+#checkout{
+    justify-content: flex-end;
+}
+
+button{
+    margin-left: 15px;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+
+.raz{
+
+    cursor: pointer;
+}
+
+
+  .fa {
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .fa:hover {
+    color: red;
+  }

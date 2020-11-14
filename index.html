@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Lindt World</title>
+
+    <!--bootsrap-->
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <main>
+        <h1>Lindt Chocolate World</h1>
+        <article class="art">
+            <img src="https://i5.walmartimages.ca/images/Enlarge/_54/590/54590.jpg" alt="article_image" width="150px"
+                height="150px">
+            <p>Lindor de Lindt : </p>
+            <p id="price1" class="PrixProduit">100</p>
+            <p>$</p>
+
+
+            <button class="plus">+</button>
+
+            <label for="name" id="qt"></label>
+            <input type="text" class="QuantiteProduit" name="quantity" required minlength="4" maxlength="8" size="10"
+                value="1">
+            <button class="moins" id='moins'>-</button>
+            <!--Heart-->
+            <i class="fa fa-heart-o" style="font-size:38px;color:red"></i>
+
+            <span class="raz">x</span>
+
+
+        </article>
+
+        <article class="art">
+            <img src="https://www.cdiscount.com/pdt2/6/7/7/1/700x700/lid3046920002677/rw/lindt-boite-de-chocolat-connaisseurs-pralines-4.jpg"
+                alt="article_image" width="150px" height="150px">
+            <p>Connaisseurs Pralinés : </p>
+            <p id="price2" class="PrixProduit">100</p>
+            <p>$</p>
+
+
+            <button class="plus">+</button>
+            <label for="name" id="qt"></label>
+            <input type="text" class="QuantiteProduit" name="quantity" required minlength="4" maxlength="8" size="10"
+                value="1">
+            <button class="moins" id='moins'>-</button>
+            <!--Heart-->
+            <i class="fa fa-heart-o" style="font-size:38px;color:red"></i>
+
+            <span class="raz">x</span>
+        </article>
+
+        <article class="art">
+            <img src="https://www.france-export-fv.com/WebRoot/Orange/Shops/6449c484-4b17-11e1-a012-000d609a287c/5272/306C/8984/C1D2/CD68/0A0C/05E7/DF1E/boite_rochers.png"
+                alt="article_image" width="150px" height="150px">
+            <p>Connaisseurs Rochers : </p>
+            <p id="price3" class="PrixProduit">100</p>
+            <p>$</p>
+
+
+            <button class="plus">+</button>
+            <label for="name" id="qt"></label>
+            <input type="text" class="QuantiteProduit" name="quantity" required minlength="4" maxlength="8" size="10"
+                value="1">
+            <button class="moins" id='moins'>-</button>
+            <!--Heart-->
+
+            <i class="fa fa-heart-o" style="font-size:38px;color:red"></i>
+
+            <!--<i class="fa fa-heart" aria-hidden="true" style="font-size:38px;color:red"></i>-->
+            <span class="raz">x</span>
+        </article>
+
+        <article id="checkout">
+            <p>Total price: $<span class="PrixTotal">300</span></p>
+            <button>Buy now!</button>
+        </article>
+    </main>
+
+
+    <script type="text/javascript" src="Main.js"></script>
+
+</body>
+
+</html>
